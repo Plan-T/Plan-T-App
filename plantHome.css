@@ -1,0 +1,45 @@
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.title {
+	position: relative;
+	text-align: center;
+	top: 130px;
+	background-color: darkseagreen;
+	color: white
+
+}
+
+.menu {
+	position: relative;
+	text-align: center;
+	top: 120px;	
+	line-height: 30px;
+	padding: 50px;
+}
+
+.button {
+	position: relative;
+	border: 2px solid white;
+	margin-bottom: 20px;
+	background-color: darkseagreen;
+	color: white;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: #f5f2d0;
+}
