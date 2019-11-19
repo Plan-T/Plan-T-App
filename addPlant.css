@@ -1,0 +1,106 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+@font-face {
+	font-family: "Avenir";
+	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
+}
+
+a{
+	height: 100%;
+	width: 100%;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	display: block;
+	vertical-align: middle;
+}
+
+.button {
+	width: 250px;
+	height: 30px;
+	margin: 25px;
+	color: white;
+	background-color: darkseagreen;
+	border-color: darkseagreen;
+	text-align: center;
+
+}
+
+.head-bar {
+	background: darkseagreen;
+	color: white;
+	height: 45px;
+	text-align: center;
+	text-shadow: 0px 0px 4px black;
+	
+}
+
+.back-button {
+	float: left;
+	height: 45px;
+	width: auto;
+}
+
+.sched-text {
+	position: relative;
+	top: 40px;
+	left: 10px;
+
+}
+
+.add-text {
+	position: relative;
+	top: 155px;
+	left: 50px;
+}
+
+.rec-search{
+	position: relative;
+	left: 10px;
+	bottom: 50px;
+}
+
+.succ-sched{
+	position: relative;
+	height: 74px;
+	top: 70px;
+}
+
+#search {
+	position: relative;
+	top: 50px;
+	left: 220px;
+}
+
+#plus {
+	position: relative;
+	top: 180px;
+	left: 220px;
+}
+
+#done{
+	position: relative;
+	top: 50px;
+}
+
+input {
+	margin: 5px;
+	width: 200px;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	height: inherit;
+}
