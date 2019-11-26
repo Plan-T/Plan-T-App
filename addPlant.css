@@ -60,7 +60,13 @@ a{
 .add-text {
 	position: relative;
 	top: 155px;
-	left: 50px;
+	left: 30px;
+}
+
+.ask-question-text{
+	position: relative;
+	top: 150px;
+	left: 80px;
 }
 
 .rec-search{
@@ -75,11 +81,30 @@ a{
 	top: 70px;
 }
 
+.view-responses-text{
+	position: relative;
+	top: 215px;
+	left: 70px;
+}
+
+#view-responses-button{
+	position: relative;
+	top: 190px;
+	left: 220px;
+}
+
 #search {
 	position: relative;
 	top: 50px;
 	left: 220px;
 }
+
+#ask-question-button {
+	position: relative;
+	top: 125px;
+	left: 220px;
+}
+
 
 #plus {
 	position: relative;
