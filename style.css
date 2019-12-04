@@ -11,6 +11,14 @@ body {
 	src: url("fonts/avenir/avenir_roman-webfont.woff") format("woff")
 }
 
+p {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 22px;
+	position: relative;
+	left: 5px;
+}
+
 #screen {
 	height: 530px;
 	width: 300px;
@@ -73,7 +81,20 @@ textarea{
 
 .answer{
 	width: 225px;
-	height: 100px;
+	height: 110px;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	background-color: darkseagreen;
+	color: black;
+}
+.answer1{
+	position: relative;
+	top: 50px;
+	right: 25px;
+	width: 250px;
+	height: 215px;
 	margin-left: 50px;
 	margin-top: 25px;
 	margin-right: 25px;
@@ -86,4 +107,10 @@ textarea{
 	margin: 25px;
 	color: white;
 	font-family: Avenir, sans-serif;
+}
+.answer-text1{
+	margin: 25px;
+	color: white;
+	font-family: Avenir, sans-serif;
+
 }
